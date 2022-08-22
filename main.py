@@ -16,7 +16,10 @@ canvas.create_image(100, 100, image=logo_img)
 canvas.pack()
 
 
-
+#Labels
+website_label = Label(text="Website")
+email_label = Label(text="Email/Username")
+password_label = Label(text="password")
 
 
 window.mainloop()
